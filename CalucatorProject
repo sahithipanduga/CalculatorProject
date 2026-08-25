@@ -1,6 +1,12 @@
+
 class CaluclatorProject {
 public int add(int a, int b) {
-}public static void main(String  []args)
+int c=a+b;
+return c;
+}
+public static void main(String  []args)
 {
+Calculator cal =new Calculator();
+system.out.println("the sum of two number is " +(cal.add(2,3));
 }
 }
