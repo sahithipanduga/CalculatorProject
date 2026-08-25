@@ -4,9 +4,17 @@ public int add(int a, int b) {
 int c=a+b;
 return c;
 }
+public int square(int x)
+{
+int z=x*x;
+return x;
+}
 public static void main(String  []args)
 {
 Calculator cal =new Calculator();
 system.out.println("the sum of two number is " +(cal.add(2,3));
+system.out.println("the square of the number is " +(Cal.square(4));
 }
 }
+
+
